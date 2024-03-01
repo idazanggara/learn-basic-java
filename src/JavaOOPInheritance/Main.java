@@ -1,11 +1,8 @@
 package JavaOOPInheritance;
 
 import JavaOOPInheritance.Inheritance.Child;
-<<<<<<< HEAD
 import JavaOOPInheritance.day_2.Block;
 import JavaOOPInheritance.day_2.Rectangle;
-=======
->>>>>>> origin/master
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +11,6 @@ public class Main {
         child.run();
 
         System.out.println(child.print());
-<<<<<<< HEAD
 
         System.out.println("====");
 
@@ -27,7 +23,6 @@ public class Main {
         Block block = new Block(5.0, 2.0, 3.0);
         System.out.println(block.getArea());
         System.out.println(block.getRound());
-=======
->>>>>>> origin/master
+
     }
 }
