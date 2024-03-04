@@ -34,6 +34,16 @@ public class TypeDataNumber3 {
         // Narrowing Casting (Manual) : double -> float -> long -> int -> char ->  short -> byte
         // ini harus secara manual
 
+        int smallNumber = 10;
+        double bigNumber = smallNumber; // Implicit Casting: int ke double
+        System.out.println(bigNumber); // Output: 10.0
+
+        double bigNumber1 = 10.5;
+        int smallNumber1 = (int) bigNumber1; // Explicit Casting: double ke int
+        System.out.println(smallNumber1); // Output: 10
+
+
+
 
 
 
