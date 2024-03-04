@@ -14,4 +14,9 @@ public class Trainer extends Employee{
                 "salary='" + salary + "'"+
                 "}";
     }
+
+    // dibuat setelah casting
+    public void teaching() {
+        System.out.println("Ngajar");
+    }
 }

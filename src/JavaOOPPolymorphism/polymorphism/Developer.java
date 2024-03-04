@@ -13,4 +13,8 @@ public class Developer extends Employee{
                 "salary='" + salary + "'"+
                 "}";
     }
+
+    public void developing() {
+        System.out.println("Coding...");
+    }
 }
